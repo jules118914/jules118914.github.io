@@ -2,12 +2,24 @@
 <html>
     
 <head>
-    <link rel="stylesheet" href="opmaak.css"
+    <link rel="stylesheet" href="opmaak.css">
 </head>
 <body>
      <h1>bbbbbbbbbbbbbbbb</h1>
     <h2>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h2>
     <a href="pagina2.html"> pagina 2</a>
+
+    <p id="tijdtxt" > tijd</p>
+
+    <script>
+        var reatim = Math.random(200, 500)
+
+        setInterval(function() {
+            reatim -= 1;
+
+            document.getElementById("tijdtxt").textContent = toString(reatim)
+        }, 100);
+    </script>
 </body>
 
 </html>
