@@ -6,6 +6,19 @@
     </head>
     <body>
         pagina 2
-        <a href="index.html">pagina 1</a>
+        <a href="index.html">pagina </a>
+          
+        <p id="tijdtxt" > tijd</p>
+
+        <script>
+            var reatim = Math.random(200, 500)
+
+            setInterval(function() {
+                reatim -= 1;
+
+                document.getElementById("tijdtxt").textContent = toString(reatim)
+            }, 100);
+        </script>
+
     </body>
 </html>
