@@ -5,3 +5,9 @@ body {
 h1 {
   color: aquamarine;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
