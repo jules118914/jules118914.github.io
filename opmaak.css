@@ -32,6 +32,5 @@ ul li a {
 
 ul li a:hover {
   background-color: #111111;
-  border: 2px solid aquamarine;
-  border-radius: 5px;
+  outline: 2px solid aquamarine;
 }
